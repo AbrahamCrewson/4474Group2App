@@ -24,7 +24,6 @@ export default function Homepage({navigation}){
         </View>
     )
 }
-const HomeStack = createNativeStackNavigator();
 
 export function HomeStackScreen() {
   return (
