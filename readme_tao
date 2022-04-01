@@ -1,0 +1,6 @@
+# NPM global installs
+export PATH=$PATH:~/.npm-global/bin
+
+source ~/.bash_profile
+
+//run this two commands before running expo
