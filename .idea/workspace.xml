@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39b6a6f-97eb-42e9-9e76-b822b437e45c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/components/FinalRec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/HelpD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sub2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HelpB.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HelpB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HelpC.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HelpC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Tabbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tabbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme_tao" beforeDir="false" afterPath="$PROJECT_DIR$/readme_tao" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
