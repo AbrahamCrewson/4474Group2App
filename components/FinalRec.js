@@ -29,7 +29,7 @@ export default function FinalRec({navigation}){
             <Text style={style.topText}>
                 Ham Sub
             </Text>
-            <Pressable style = {style.buttonYes} onPress={() => navigation.navigate("Menu")}>
+            <Pressable style = {style.buttonYes} onPress={() => navigation.navigate("Homepage")}>
                 <Text style = {style.buttonText}>Continue</Text>
             </Pressable>
             <Pressable style = {style.buttonNo} onPress={() => navigation.navigate("HelpD")}>

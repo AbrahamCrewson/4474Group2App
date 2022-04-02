@@ -2,8 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image ,Pressable} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HelpA from "./Help.js"
-import HelpB from "./Help.js"
+import HelpB from "./HelpB.js"
+import HelpC from './HelpC.js';
+import HelpD from './HelpD.js';
+import FinalRec from './FinalRec.js';
 import Help from "./Help.js"
 import React from "react";
 
@@ -22,7 +24,20 @@ export default function Homepage({navigation}){
         </View>
     )
 }
+const HomeStack = createNativeStackNavigator();
 
+export function HomeStackScreen() {
+  return (
+    <HomeStack.Navigator initialRouteName='Homepage' screenOptions={{headerShown:false}}>
+      <HomeStack.Screen name="Homepage" component={Homepage} />
+      <HomeStack.Screen name= "Help" component={Help} />
+      <HomeStack.Screen name = "HelpB" component={HelpB}/>
+      <HomeStack.Screen name = "HelpC" component={HelpC}/>
+      <HomeStack.Screen name = "HelpD" component={HelpD}/>
+      <HomeStack.Screen name = "FinalRec" component={FinalRec}/>
+    </HomeStack.Navigator>
+  );
+}
 const style = StyleSheet.create({
   topText:{
     fontSize: 40,

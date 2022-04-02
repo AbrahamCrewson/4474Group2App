@@ -31,7 +31,7 @@ export default  function Help({navigation}){
             <Pressable style = {style.buttonNo} onPress={() => navigation.navigate("HelpB")}>
                 <Text style = {style.buttonText}>No</Text>
             </Pressable>
-            <Pressable style = {style.buttonBack} onPress={() => navigation.navigate("SignedIn")}>
+            <Pressable style = {style.buttonBack} onPress={() => navigation.navigate("Homepage")}>
             <Image source={require('../images/back.png')} style = {style.buttonBack} resizeMode="contain" />
             </Pressable>
             <Text style ={{color:"#C02A2A",
