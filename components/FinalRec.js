@@ -14,35 +14,37 @@ import SignedIn from './Tabbar'
 import { NavigationContainer, StackActions } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-export default function HelpC({navigation}){
+export default function FinalRec({navigation}){
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'top',backgroundColor: 'white'}}>
             <StatusBar style="auto" />
-            <Pressable style = {style.button}>
-                <Text style = {style.buttonText}>Are you on diet</Text>
-            </Pressable>
-            <Pressable style = {style.buttonYes} onPress={() => navigation.navigate("HelpD")}>
-                <Text style = {style.buttonText}>Yes</Text>
+            <Image
+                source={require("../images/sub2.png")}
+                resizeMode="contain"
+                style={style.image}
+            ></Image>
+            <Text style={style.itemText}>
+                We've made recommendation for you!
+            </Text>
+            <Text style={style.topText}>
+                Ham Sub
+            </Text>
+            <Pressable style = {style.buttonYes} onPress={() => navigation.navigate("Menu")}>
+                <Text style = {style.buttonText}>Continue</Text>
             </Pressable>
             <Pressable style = {style.buttonNo} onPress={() => navigation.navigate("HelpD")}>
-                <Text style = {style.buttonText}>No</Text>
+                <Text style = {style.buttonText}>Back</Text>
             </Pressable>
-            <Pressable style = {style.buttonBack} onPress={() => navigation.navigate("HelpB")}>
-                <Image source={require('../images/back.png')} style = {style.buttonBack} resizeMode="contain" />
-            </Pressable>
-            <Text style ={{color:"#C02A2A",
-                fontSize:28, position : 'absolute',
-                right : 30,
-                bottom: 53}}>3/4</Text>
+
         </View>
     );
 }
 const style = StyleSheet.create({
     topText:{
-        fontSize: 40,
-        fontWeight: 'bold',
+        fontSize: 25,
+        fontWeight: 'normal',
         color: '#C22130',
-        marginTop:75,
+        marginTop:40,
         marginBottom: 20,
     },
     arrow:{
@@ -63,22 +65,26 @@ const style = StyleSheet.create({
     },
     buttonYes:{
         borderRadius: 25,
-        borderWidth: 10 ,
-        width: 200,
+        borderWidth: 7 ,
+        width: 150,
         backgroundColor: '#C22130',
         borderColor:'#C22130',
         padding: 20,
-        marginTop:40,
+        marginTop:520,
+        position : 'absolute',
+        right: 20,
 
     },
     buttonNo:{
         borderRadius: 25,
         borderWidth: 7 ,
-        width: 200,
+        width: 150,
         backgroundColor: '#C22130',
         borderColor:'#C22130',
         padding: 20,
-        marginTop:40,
+        marginTop:520,
+        position : 'absolute',
+        left: 20,
 
 
     },
@@ -96,20 +102,22 @@ const style = StyleSheet.create({
     buttonText:{
         textAlign : 'center',
         color:"white",
-        fontSize:30,
+        fontSize:24,
     },
     itemText:{
         fontSize:20,
         color: 'black',
-        marginBottom:10,
+        marginTop:380,
+        fontWeight: 'bold',
     },
-    image:{
-        height:100,
-        width: 100,
-        marginHorizontal: 0,
-        marginTop: 30,
-        marginBottom: 10,
 
+    image:{
+        height: 219,
+        width: 282,
+        marginTop: 80,
+        position: 'absolute',
+        left:48,
+        top: 50,
     },
     deal:{
         borderRadius: 360,

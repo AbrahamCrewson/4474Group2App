@@ -10,9 +10,11 @@ import RewardsStackScreen from './Rewards';
 import ProfileStackScreen from './Profile';
 import Headerbar from './Headerbar';
 import SignIn from './SignIn';
-import Help from './Help'
-import HelpB from './HelpB'
-import HelpC from './HelpC'
+import Help from './Help';
+import HelpB from './HelpB';
+import HelpC from './HelpC';
+import HelpD from './HelpD';
+import FinalRec from './FinalRec';
 
 export const Tab = createBottomTabNavigator();
 export const Stack = createNativeStackNavigator();
@@ -81,6 +83,8 @@ export default function Tabbar(){
          <Stack.Screen name = "Help" component={Help}/>
          <Stack.Screen name = "HelpB" component={HelpB}/>
          <Stack.Screen name = "HelpC" component={HelpC}/>
+         <Stack.Screen name = "HelpD" component={HelpD}/>
+         <Stack.Screen name = "FinalRec" component={FinalRec}/>
       </Stack.Navigator>
     </NavigationContainer>
     )

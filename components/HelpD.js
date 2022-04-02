@@ -14,26 +14,26 @@ import SignedIn from './Tabbar'
 import { NavigationContainer, StackActions } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-export default function HelpC({navigation}){
+export default function HelpD({navigation}){
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'top',backgroundColor: 'white'}}>
             <StatusBar style="auto" />
             <Pressable style = {style.button}>
-                <Text style = {style.buttonText}>Are you on diet</Text>
+                <Text style = {style.buttonText}>Do you workout</Text>
             </Pressable>
-            <Pressable style = {style.buttonYes} onPress={() => navigation.navigate("HelpD")}>
+            <Pressable style = {style.buttonYes} onPress={() => navigation.navigate("FinalRec")}>
                 <Text style = {style.buttonText}>Yes</Text>
             </Pressable>
-            <Pressable style = {style.buttonNo} onPress={() => navigation.navigate("HelpD")}>
+            <Pressable style = {style.buttonNo} onPress={() => navigation.navigate("FinalRec")}>
                 <Text style = {style.buttonText}>No</Text>
             </Pressable>
-            <Pressable style = {style.buttonBack} onPress={() => navigation.navigate("HelpB")}>
+            <Pressable style = {style.buttonBack} onPress={() => navigation.navigate("HelpC")}>
                 <Image source={require('../images/back.png')} style = {style.buttonBack} resizeMode="contain" />
             </Pressable>
             <Text style ={{color:"#C02A2A",
                 fontSize:28, position : 'absolute',
                 right : 30,
-                bottom: 53}}>3/4</Text>
+                bottom: 53}}>4/4</Text>
         </View>
     );
 }
