@@ -35,7 +35,7 @@ export function SaladPurchaseScreen({route, navigation}){
     return (
         <View style={style.main}>
             <View style={style.title}>
-                <Pressable onPress={() => navigation.navigate("Salads")}>
+                <Pressable onPress={() => navigation.navigate("Salad")}>
                     <Image style={style.back} source={require('../../images/back2.png')}/>
                 </Pressable>
                 <Text style={style.titleText}> {name} Sub</Text>
@@ -57,7 +57,7 @@ export function SidesPurchaseScreen({route, navigation}){
     return (
         <View style={style.main}>
             <View style={style.title}>
-                <Pressable onPress={() => navigation.navigate("Sides")}>
+                <Pressable onPress={() => navigation.navigate("Side")}>
                     <Image style={style.back} source={require('../../images/back2.png')}/>
                 </Pressable>
                 <Text style={style.titleText}> {name} </Text>

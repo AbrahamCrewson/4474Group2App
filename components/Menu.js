@@ -21,8 +21,8 @@ const MenuStack = createMaterialTopTabNavigator();
     
     <MenuStack.Navigator>
       <MenuStack.Screen name="Subs" component={SubStackScreen} />
-      <MenuStack.Screen name="Salad" component={SaladsScreen} />
-      <MenuStack.Screen name="Side" component={SidesScreen} />
+      <MenuStack.Screen name="Salads" component={SaladsScreen} />
+      <MenuStack.Screen name="Sides" component={SidesScreen} />
       <MenuStack.Screen name="Drinks" component={DrinksScreen} />
     </MenuStack.Navigator>
     

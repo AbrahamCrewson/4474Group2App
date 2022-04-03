@@ -35,8 +35,8 @@ export  function SidesScreen({navigation}){
 const SidesStack = createNativeStackNavigator();
 export default function SidesStackScreen() {
   return (
-    <SidesStack.Navigator initialRouteName='Sides' screenOptions={{headerShown:false}}>
-      <SidesStack.Screen name= "Sides" component={SidesScreen} />
+    <SidesStack.Navigator initialRouteName='Side' screenOptions={{headerShown:false}}>
+      <SidesStack.Screen name= "Side" component={SidesScreen} />
       <SidesStack.Screen name= "Purchase" component={SidesPurchaseScreen }  />
       
     </SidesStack.Navigator>

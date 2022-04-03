@@ -35,8 +35,8 @@ export  function SaladsScreen({navigation}){
 const SaladStack = createNativeStackNavigator();
 export default function SaladStackScreen() {
   return (
-    <SaladStack.Navigator initialRouteName='Salads' screenOptions={{headerShown:false}}>
-      <SaladStack.Screen name= "Salads" component={SaladsScreen} />
+    <SaladStack.Navigator initialRouteName='Salad' screenOptions={{headerShown:false}}>
+      <SaladStack.Screen name= "Salad" component={SaladsScreen} />
       <SaladStack.Screen name= "Purchase" component={SaladPurchaseScreen }  />
       
     </SaladStack.Navigator>
