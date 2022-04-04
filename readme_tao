@@ -1,4 +1,5 @@
 # NPM global installs
+#Just for the group member : TAO
 export PATH=$PATH:~/.npm-global/bin
 
 source ~/.bash_profile
