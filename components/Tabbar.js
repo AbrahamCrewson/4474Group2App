@@ -15,6 +15,8 @@ import HelpB from './HelpB';
 import HelpC from './HelpC';
 import HelpD from './HelpD';
 import FinalRec from './FinalRec';
+import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
+import CartScreen from './Cart';
 
 export const Tab = createBottomTabNavigator();
 export const Stack = createNativeStackNavigator();
@@ -41,7 +43,7 @@ export const screenOptions = (route, color) => {
 
   };
 
-export const headerOptions = StyleSheet.create({
+export function headerOptions({navigation}){return(StyleSheet.create({
     headerLargeTitle: true,
     headerLargeTitleStyle:{
         fontSize: 10
@@ -55,9 +57,11 @@ export const headerOptions = StyleSheet.create({
     //headerLeft: (props) => 
         //<Icon name ={'menu'} color={'#C22130'} size={30}/>,
     headerRight: (props) => 
-    <Icon name ={'shopping-bag'} color={'#C22130'} size={30}/>
+    <Pressable onPress={() => navigation.navigate("Cart")}>
+      <Icon name ={'shopping-bag'} color={'#C22130'} size={30}/>
+    </Pressable>
     
-});
+}))} ;
 
 
 
@@ -79,6 +83,7 @@ export default function Tabbar(){
      <Stack.Navigator initialRouteName='SignIn' screenOptions={{headerShown:false}} >
             <Stack.Screen name = "SignIn" component={SignIn}/>
             <Stack.Screen name = "SignedIn" component={SignedIn}/>
+            <Stack.Screen name = "Cart" component={CartScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
     )
