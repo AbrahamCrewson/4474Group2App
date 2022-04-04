@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Text, View,StyleSheet,Image } from 'react-native';
+import { Button, Text, View,StyleSheet,Image ,ScrollView} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
@@ -13,7 +13,7 @@ export default function Rewards(){
 
 export  function RewardsA(){
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor:"#E4E4E4" }}>
+        <ScrollView style={styles.main}>
                 <Image source={require("../images/selfTitle.png")} resizeMode="contain" style={styles.image}/>
                 <Image
                     source={require("../images/title1.png")} resizeMode="contain" style={styles.image2}/>
@@ -28,7 +28,7 @@ export  function RewardsA(){
                 resizeMode="contain"
                 style={styles.image4}
             ></Image>
-        </View>
+        </ScrollView>
     )
 }
 
@@ -44,6 +44,9 @@ function RewardsStackScreen() {
 }
 
 const styles = StyleSheet.create({
+    main:{
+        flex: 1,  backgroundColor:"#E4E4E4"
+    },
     container: {
         flex: 1
     },
