@@ -25,7 +25,6 @@ export default function Homepage({navigation}){
     )
 }
 const HomeStack = createNativeStackNavigator();
-
 export function HomeStackScreen() {
   return (
     <HomeStack.Navigator initialRouteName='Homepage' screenOptions={{headerShown:false}}>

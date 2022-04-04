@@ -3,7 +3,7 @@ import { Button, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import SubsScreen from './menu_components/SubsScreen';
+import SubStackScreen from './menu_components/SubsScreen';
 import SaladsScreen from './menu_components/SaladsScreen';
 import SidesScreen from './menu_components/SidesScreen';
 import DrinksScreen from './menu_components/DrinksScreen';
@@ -20,7 +20,7 @@ const MenuStack = createMaterialTopTabNavigator();
   return (
     
     <MenuStack.Navigator>
-      <MenuStack.Screen name="Subs" component={SubsScreen} />
+      <MenuStack.Screen name="Subs" component={SubStackScreen} />
       <MenuStack.Screen name="Salads" component={SaladsScreen} />
       <MenuStack.Screen name="Sides" component={SidesScreen} />
       <MenuStack.Screen name="Drinks" component={DrinksScreen} />

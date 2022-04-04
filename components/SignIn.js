@@ -5,6 +5,7 @@ export default function SignIn({navigation}){
     const [password, setPassword] = React.useState(null);
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#C22130' }}>
+            <Image style={style.logo} source={require('../images/logowhite.png')}/>
             <TextInput 
             style={style.TextInput}
             placeholder="Email"
@@ -42,6 +43,12 @@ const style = StyleSheet.create({
           color:'black',
           fontSize:30,
           padding: 10,
+      },
+      logo:{
+        width:1280*0.15,
+        height:646*0.15,
+        marginBottom: 70,
+
       }
   
   });
