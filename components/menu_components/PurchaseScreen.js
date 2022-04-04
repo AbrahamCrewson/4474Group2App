@@ -19,11 +19,15 @@ export default function PurchaseScreen({route, navigation}){
                 <Text style={style.desc}>A delicious {name} sub with all the toppings!</Text>
                 <View style={style.twelve}>
                     <Text style={style.size}>12 Inch Sub $9.99</Text>
+                    <Pressable onPress={() => navigation.navigate("Sub")}>
                     <Text style={style.cart}>Add To Cart</Text>
+                    </Pressable>
                 </View>
                 <View style={style.twelve}>
                     <Text style={style.size}>6 Inch Sub $5.99  </Text>
-                    <Text style={style.cart}>Add To Cart</Text>
+                    <Pressable onPress={() => navigation.navigate("Sub")}>
+                        <Text style={style.cart}>Add To Cart</Text>
+                    </Pressable>
                 </View>
             </View>
         </View>
@@ -45,7 +49,9 @@ export function SaladPurchaseScreen({route, navigation}){
                 <Text style={style.desc}>A healthy {name} !</Text>
                 <View style={style.twelve}>
                     <Text style={style.size}>{name}</Text>
-                    <Text style={style.cart}>Add To Cart</Text>
+                    <Pressable onPress={() => navigation.navigate("Salad")}>
+                        <Text style={style.cart}>Add To Cart</Text>
+                    </Pressable>
                 </View>
             </View>
         </View>
@@ -66,8 +72,10 @@ export function SidesPurchaseScreen({route, navigation}){
                 <Image style={style.sideimg}source={imgloc}/>
                 <Text style={style.desc}>A yummy {name}!</Text>
                 <View style={style.twelve}>
-                <Text style={style.sidesize}>{name}</Text>                   
-                <Text style={style.cart}>Add To Cart</Text>
+                <Text style={style.sidesize}>{name}</Text> 
+                <Pressable onPress={() => navigation.navigate("Side")}>               
+                    <Text style={style.cart}>Add To Cart</Text>
+                </Pressable>   
                 </View>
             </View>
         </View>
@@ -91,7 +99,9 @@ export function DrinksPurchaseScreen({route, navigation}){
                 </View>
                 <View style={style.twelve}>
                     <Text style={style.size}>{name} $0.99</Text>
-                    <Text style={style.cart}>Add To Cart</Text>
+                    <Pressable onPress={() => navigation.navigate("Drink")}>
+                        <Text style={style.cart}>Add To Cart</Text>
+                    </Pressable>
             </View>
             </View>
         </View>

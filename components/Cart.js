@@ -101,7 +101,7 @@ function PaymentScreen({navigation}){
             <View style = {style.total}>
                 <Text style = {style.totaltext}> Total: $33.87 </Text>
             </View>
-            <Pressable style={style.continue} onPress={() => navigation.navigate("Payment")}>
+            <Pressable style={style.continue} onPress={() => navigation.navigate("Home")}>
             <Text style={style.continuetext} >Place Order</Text>
             </Pressable>
         </ScrollView>
