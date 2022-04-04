@@ -17,7 +17,7 @@ import SelectDropdown from 'react-native-select-dropdown'
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 const countries = ["Eggs", "Cow's Milk", "Tree Nuts", "Peanuts", "Shellfish","Wheat",
-    "Soy","c","d"];
+    "Soy","Ham","Beef"];
 
 
 export default function HelpB({navigation}){
@@ -26,7 +26,7 @@ export default function HelpB({navigation}){
 
             <StatusBar style="auto" />
             <Pressable style = {style.button}>
-                <Text style = {style.buttonText}>Do you have food allergy</Text>
+                <Text style = {style.buttonText}>Do you have food allergy?</Text>
             </Pressable>
             {/*<ScrollView style = {style.scrollViewContainer} ScrollEnabled={true}>*/}
 

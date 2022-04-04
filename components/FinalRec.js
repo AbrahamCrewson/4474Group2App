@@ -114,10 +114,11 @@ const style = StyleSheet.create({
     image:{
         height: 219,
         width: 282,
-        marginTop: 80,
+        marginTop: 100,
         position: 'absolute',
-        left:48,
-        top: 50,
+        left:"16%",
+
+
     },
     deal:{
         borderRadius: 360,

@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39b6a6f-97eb-42e9-9e76-b822b437e45c" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/readme_tao" beforeDir="false" afterPath="$PROJECT_DIR$/readme_tao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/firstReward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/points.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/progressBar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/secondReward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/selfTitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thirdReward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FinalRec.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/FinalRec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Help.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HelpB.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HelpB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HelpC.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HelpC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HelpD.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HelpD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rewards.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Rewards.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +58,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">

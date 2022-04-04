@@ -67,7 +67,8 @@ const style = StyleSheet.create({
         backgroundColor: '#C22130',
         borderColor:'#C22130',
         padding: 20,
-        marginTop:150,
+        marginTop:"37%",
+
     },
     buttonYes:{
         borderRadius: 25,
@@ -77,6 +78,7 @@ const style = StyleSheet.create({
         borderColor:'#C22130',
         padding: 20,
         marginTop:40,
+        // marginHorizontal: 50,
 
     },
     buttonNo:{
@@ -87,6 +89,7 @@ const style = StyleSheet.create({
         borderColor:'#C22130',
         padding: 20,
         marginTop:40,
+        // marginHorizontal: 70,
 
 
     },
