@@ -1,6 +1,6 @@
 # 4474Group2App
 
-Why?
+Description:
 This project is a complete redesign of the Mr.Sub Application in order to provide a more interactive and user-friendly interface. The group used React Native in order to complete the project. 
 
 React Native Step Up
