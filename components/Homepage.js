@@ -16,7 +16,7 @@ export default function Homepage({navigation}){
             <Text style = {style.topText}>Deal of The Day</Text>
             <Pressable style = {style.deal} onPress={() => navigation.navigate("Menu")}>
               <Image style= {style.image} source={require('../images/sub1.png')}/>
-              <Text style = {style.itemText}>Meatball Sub     $6.99</Text>
+              <Text style = {style.itemText}>Chicken Sub     $4.99 - $8.99</Text>
             </Pressable>
             <Pressable style = {style.button} onPress={() => navigation.navigate("Help")}>
               <Text style = {style.buttonText}>Help Me Decide</Text>
@@ -59,7 +59,7 @@ const style = StyleSheet.create({
     fontSize:30,
   },
   itemText:{
-    fontSize:20,
+    fontSize:25,
     color: 'black',
     marginBottom:10,
   },
@@ -71,11 +71,11 @@ const style = StyleSheet.create({
     marginBottom: 10,
   },
   deal:{
-    borderRadius: 360,
+    borderRadius: 50,
     borderWidth: 8,
     backgroundColor: 'white',
     borderColor:'#C22130',
-    padding: 0,
+    padding: 10,
     marginHorizontal:0,
     alignItems:'center',
   }
