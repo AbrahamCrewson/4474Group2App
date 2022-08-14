@@ -2,6 +2,8 @@
 
 Description:
 This project is a complete redesign of the Mr.Sub Application in order to provide a more interactive and user-friendly interface. The group used React Native in order to complete the project. 
+Present DOC of the APP
+https://docs.google.com/presentation/d/1wPt0N91l6Vw9gdXAxB9WXKFY0jrF-zLBfGimOAzOMH4/edit#slide=id.g122e11fc105_0_158
 
 React Native Step Up
 Step 1: Install Node.js (version 16.14.2) https://nodejs.org/en/download/
@@ -29,3 +31,5 @@ export NODE_OPTIONS=--openssl-legacy-provider
 Step 3: Follow steps 5-6 as indicated above.
 Step 4: Upon, running the interface you will be met wwith a login screen. Enter your credentials.
 Step 5: Navigate the application freely!
+
+
